@@ -1,0 +1,9 @@
+packages/
+Mvc_Rotas/bin/
+Mvc_Rotas/obj/
+Mvc_Rotas/Web.Debug.config
+Mvc_Rotas/Web.Release.config
+Mvc_Rotas.v12.suo
+Mvc_Rotas/Mvc_Rotas.csproj.user
+Mvc_Rotas/Web.config
+Mvc_Rotas/Mvc_Rotas.csproj
