@@ -33,5 +33,10 @@ namespace Mvc_Rotas.Controllers
             List<Produto> produtos = _listaProdutos.Where(p => p.Categoria.Equals(categoria)).ToList();
             return View(produtos);
         }
+
+        public ActionResult Cadastrar()
+        {
+            return View();
+        }
 	}
 }

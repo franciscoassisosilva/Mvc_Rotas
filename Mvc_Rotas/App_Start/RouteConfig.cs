@@ -27,6 +27,12 @@ namespace Mvc_Rotas
             );
 
             routes.MapRoute(
+                name: "CadastrarProduto",
+                url: "Produtos/Cadastrar",
+                defaults: new { controller = "Produto", action = "Cadastrar" }
+            );
+
+            routes.MapRoute(
                 name: "Categorias",
                 url: "Produtos/{categoria}",
                 defaults: new { controller = "Produto", action = "Categorias" }
